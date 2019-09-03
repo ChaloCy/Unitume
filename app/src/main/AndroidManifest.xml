@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unitume">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FAQs"></activity>
+        <activity android:name=".GasDelivery" />
+        <activity android:name=".BillPayments" />
+        <activity android:name=".Ecitizen" />
+        <activity android:name=".Appointments" />
+        <activity android:name=".ParcelDelivery" />
+        <activity android:name=".FoodDelivery" />
+        <activity android:name=".Laundry" />
+        <activity android:name=".BusBooking" />
+        <activity android:name=".Shopping" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationActivity" />
+
+        <!-- [START firebase_service] -->
+        <service
+            android:name=".java.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+    </application>
+
+
+
+</manifest>

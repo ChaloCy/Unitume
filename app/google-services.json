@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852672958875",
+    "firebase_url": "https://unitume-d8a3b.firebaseio.com",
+    "project_id": "unitume-d8a3b",
+    "storage_bucket": "unitume-d8a3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852672958875:android:9eede59319438fbb",
+        "android_client_info": {
+          "package_name": "com.example.unitume"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852672958875-en4og264rg1k8qmlkp6dhgq8cucpk4s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unitume",
+            "certificate_hash": "ee7df70574a294c88024079b4ffa7046d4ee6fc3"
+          }
+        },
+        {
+          "client_id": "852672958875-vo2hfl722kejobdj7pri3qc1i1hv81ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcwRWzi5FG06K-0hpjMXiZ3_kPUSlhPK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852672958875-vo2hfl722kejobdj7pri3qc1i1hv81ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
